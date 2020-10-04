@@ -1,2 +1,2 @@
 # JaveScript
-All concept of Vanilla JS implemented 
+Implementation of Vanilla JS from Basic Concept to All Advanced Concept of JS
