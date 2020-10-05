@@ -1,5 +1,9 @@
 //----------------CODING CHALLENGE 1----------------------
 
+/* BMI Problem finding the BMI of Three people with different 
+  data */
+
+
 
 var mheight = prompt('enter marks height');
 
