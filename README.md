@@ -9,7 +9,7 @@ JavaScript is a very powerful client-side scripting language.
 
 JavaScript was developed by Brendan Eich in 1995, which appeared in Netscape, a popular browser of that time.
 
-JavaScript was initially created to “make web pages alive”.
+JavaScript was initially created to “make web pages alive” or make interaction with the web pages.
 
 The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 
