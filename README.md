@@ -9,10 +9,14 @@ JavaScript is a very powerful client-side scripting language.
 
 JavaScript was developed by Brendan Eich in 1995, which appeared in Netscape, a popular browser of that time.
 
-JavaScript was initially created to “make web pages alive” or make interaction with the web pages.
+JavaScript was initially created to “make web pages alive” or add functionality to a web page  .
 
 The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 
 Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
 
 In this aspect, JavaScript is very different from another language called Java.
+
+ECMAScript is the official name of the language.
+
+From 2015 ECMAScript is named by year (ECMAScript 2015).
