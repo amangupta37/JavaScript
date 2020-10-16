@@ -17,10 +17,11 @@ var years = [1999,1998,1997,1996,1995];
 
 //---------------------MAIN FUNCTION -------------------------
 
-// This is the function CALAGE() where all the other FUNCTIONS are passed in its ARGUMENT here we have passed total 3 FUNCTION as a argument (i.e cal() , details(), hbeats()) and  also an array YEARS is passed in its argument as we can observe that CALAGE() has two arguments ARR & FN in its argument list.
-
-
-
+/*
+This is the function CALAGE() where all the other FUNCTIONS are passed in its ARGUMENT here we have passed total 
+3 FUNCTION as a argument (i.e cal() , details(), hbeats()) and  also an array YEARS is passed in its argument as we 
+can observe that CALAGE() has two arguments ARR & FN in its argument list.
+*/
 
 function calage(arr,fn)
        {
