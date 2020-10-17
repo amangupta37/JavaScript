@@ -5,13 +5,19 @@
 */
 
 
-//A programming language is said to have First-class functions when functions in that language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+/*
+ A programming language is said to have First-class functions when functions in that language 
+ are treated like any other variable. For example, in such a language, a function can be passed
+ as an argument to other functions, can be returned by another function and can be assigned as 
+ a value to a variable.*/
 
 // ANONYMOUS FUNCTION IS ALSO COMES UNDER FIRST CLASS FUNCTION
 
 // The function which does not have any name is called as ANONYMOUS function 
 
-//ANONYMOUS function  has only arguments but did not have any name before arguments here we can se that we are returning the function which does not have any name but has argument NAME in its argument list .
+/* ANONYMOUS function  has only arguments but did not have any name before arguments here we can se that
+we are returning the function which does not have any name but has argument NAME in its argument list .
+*/
 
 function interview(job)
 {     
