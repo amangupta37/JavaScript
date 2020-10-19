@@ -69,10 +69,19 @@ var z = interview('driver');
 
 //----------PASSING PARAMETER TO anonymous FUNCTION-----------
 
-//Since its an anonymous function and we dont know the name of the function hence passing the argument will not be possible in a simple way as we do for a normal function so for passing the parameter to anonymous function we have two ways  
+/*
+Since its an anonymous function and we dont know the name of the function hence passing the argument will not be possible
+in a simple way as we do for a normal function so for passing the parameter to anonymous function we have two ways  
+*/
 
 //-------------------------- WAY 1----------------------------
-// In this method we will store the value of INTERVIEW function in a variable and then we can attach it to the parameter of anonymous function so that the value could passed to the parameter of anonymous function. Here we can observe thst the value of we have stored the value of Inetrview function into variable X and then attach it to the anonymous function parameter i.e ('jhon')
+
+/*
+In this method we will store the value of INTERVIEW function in a variable and then we can attach it to the parameter of 
+anonymous function so that the value could passed to the parameter of anonymous function. Here we can observe thst the value
+of we have stored the value of Inetrview function into variable X and then attach it to the anonymous function parameter i.e ('jhon')
+*/
+
 x('jhon ');
 
 
