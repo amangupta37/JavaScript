@@ -61,7 +61,8 @@
     1. If we use This keyword inside the nested function then function which is at last will going to access the global object 
     
     LIKE here nested function is clickme and inside the clickme their is on more function i.e CALLBACK FUNCTION 
-    and we r using THIS KEYWORD in call back function and hence THIS keyword in call back function will access a GLOBAL OBJECT and we also know that in browser default global object is window object but we are using THIS.POSITION which is propertie of BOX object hence it will show UNDEFINED message
+    and we r using THIS KEYWORD in call back function and hence THIS keyword in call back function will access a GLOBAL OBJECT and we also know
+    that in browser default global object is window object but we are using THIS.POSITION which is propertie of BOX object hence it will show UNDEFINED message
 
 
 */
@@ -75,15 +76,14 @@
 
 
 /*
-    Till now we have seen that THIS Keyword which is used inside nested function is pointing to the global object i.e window object in case of JS and hence showing UNDEFINE in ALERT BOX 
+    Till now we have seen that THIS Keyword which is used inside nested function is pointing to the global object i.e window object in case of JS 
+    and hence showing UNDEFINE in ALERT BOX 
     
     So if want to access the propeties of object BOX the we need to use a trick and the trick is that 
     
-    1. As we all know that THIS KEYWORD is pointing to GLOBAL object because we r using it inside the NESTED FUNCTION i.e inside the  CALL BACK FUNCTION now we just need to remove THIS KEYWORD and put it outside the CALL BACK FUNCTION or We can say OUTSIDE the NESTED FUNCTION so that it can refers to properties of OBJECT rather than a GLOBAL OBJECT. 
-
-   
-
-
+    1. As we all know that THIS KEYWORD is pointing to GLOBAL object because we r using it inside the NESTED FUNCTION i.e inside the  CALL BACK FUNCTION
+    now we just need to remove THIS KEYWORD and put it outside the CALL BACK FUNCTION or We can say OUTSIDE the NESTED FUNCTION so that it can refers to 
+    properties of OBJECT rather than a GLOBAL OBJECT. 
 */
 
 
@@ -149,7 +149,8 @@
           ()  => // ARROW function
         
           {   
-                var str1 = 'ARROW FUNCTION IS USED (ES6) '+'\n THIS KEYWORD WILL POINTS TO SURROUNDING'+ '\n RESULT :- This is box no is ' + this.position2 + ' and its color is ' + this.color2;
+                var str1 = 'ARROW FUNCTION IS USED (ES6) '+'\n THIS KEYWORD WILL POINTS TO SURROUNDING'+ '\n RESULT :- This is box no is ' + this.position2 + 
+                           ' and its color is ' + this.color2;
                 
                 alert(str1);
         
