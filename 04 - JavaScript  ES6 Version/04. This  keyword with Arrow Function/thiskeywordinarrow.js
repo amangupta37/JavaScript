@@ -106,7 +106,8 @@
           function() // call back function
         
           {   
-                var str1 = 'NORMAL FUNCTION IS USED (ES5) '+'\n UNDEFINED error is corrected now '+ '\n RESULT :- This is box no is ' + keydef.position1 + ' and its color is ' + keydef.color1;
+                var str1 = 'NORMAL FUNCTION IS USED (ES5) '+'\n UNDEFINED error is corrected now '+ '\n RESULT :- This is box no is ' + 
+                            keydef.position1 + ' and its color is ' + keydef.color1;
                 
                 alert(str1);
         
