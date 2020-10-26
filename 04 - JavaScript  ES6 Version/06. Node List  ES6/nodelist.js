@@ -24,9 +24,11 @@
 //-------------------1. Use of INDEX VALUE in NODE LIST-----------------
 
 /*
-        Nodelist can be accessed by its index value like here we can observe that we have three paragraph out of three  1 paragraph does not contain any message so if we want to put some text in paragraph 3 then we can use DOM manipulation
+        Nodelist can be accessed by its index value like here we can observe that we have three paragraph out of three  
+        1 paragraph does not contain any message so if we want to put some text in paragraph 3 then we can use DOM manipulation
         
-        also if we use QUERYSELECTORALL() method to select all the paragraph then it will going to select all para and store it into the NODE LIST and provides INDEX VALUE to each para
+        also if we use QUERYSELECTORALL() method to select all the paragraph then it will going to select all para and store it 
+        into the NODE LIST and provides INDEX VALUE to each para
         
         
         1.<p>Hello World !!!</p>  ------> its index value is 0
