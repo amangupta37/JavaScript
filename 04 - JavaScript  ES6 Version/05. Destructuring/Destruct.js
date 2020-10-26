@@ -19,7 +19,7 @@
 
 if we want to access each elements of an array and store each       
 elements inside a single variable then it colud be done in to
-    two ways 
+two ways 
     
     1. Through simple way (ES5)
     
@@ -27,7 +27,8 @@ elements inside a single variable then it colud be done in to
 
 
 */
-        console.log("\n--------1. DESTRUCTURING WITH ARRAY----------")
+       
+console.log("\n--------1. DESTRUCTURING WITH ARRAY----------")
 
 //------------------1.(a) Through simple way (ES5)-----------------
 
@@ -43,9 +44,13 @@ elements inside a single variable then it colud be done in to
         console.log(age);
 
 
-/*  This is not the efficent way of extracting data and storing the     data in single variable  because if we have N no of items then     stroing data in this formate is not possible.
+/*  
 
-    Hence the concept of  DESTRUCTURING comes in role
+This is not the efficent way of extracting data and storing the data in 
+single variable  because if we have N no of items then stroing 
+data in this formate is not possible.
+
+Hence the concept of  DESTRUCTURING comes in role
     
 */
 
@@ -119,8 +124,12 @@ elements inside a single variable then it colud be done in to
 
 //-----------MOST IMPORTANT APPLICTAION OF DESTRUCTURING-----------
 
-/*  One of the most important Application of destructuring can be       seen in FUNCTION because if we want to return multiple values
-    from a function through RETURN KEYWORD then we can esily do with DESTRUCTURING and without DESTRUCTURING its impossible to return multiple values  by using RETURN KEYWORD 
+/*  
+One of the most important Application of destructuring can be      
+seen in FUNCTION because if we want to return multiple values
+from a function through RETURN KEYWORD then we can esily do with
+DESTRUCTURING and without DESTRUCTURING its impossible to return 
+multiple values  by using RETURN KEYWORD 
 
 
 */
@@ -150,7 +159,10 @@ console.log("--Returning Multiple Values without Using Destructuring--")
      let res = dob(2000);
      console.log(res);
 
-/* hence we conclude that without using DESTRUCTURING its nearly            impossible to return multiple value with the help of RETURN SATEMENT
+/* 
+
+hence we conclude that without using DESTRUCTURING its nearly            
+impossible to return multiple value with the help of RETURN SATEMENT
    
    Hence now we will be using Destructuring to solve the problem
 */
