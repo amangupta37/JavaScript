@@ -15,7 +15,10 @@
 
 //-------------------1. DESTRUCTURING WITH ARRAY-------------------
 
-/*  if we want to access each elements of an array and store each       elements inside a single variable then it colud be done in to
+/*  
+
+if we want to access each elements of an array and store each       
+elements inside a single variable then it colud be done in to
     two ways 
     
     1. Through simple way (ES5)
