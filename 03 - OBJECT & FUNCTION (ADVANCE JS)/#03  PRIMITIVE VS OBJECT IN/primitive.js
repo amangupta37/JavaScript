@@ -43,12 +43,19 @@ console.log(obj2.age); // 19
 //----------------------FUNCTION------------------------------
 
 
-// In this code we are tring to pass the variable and object as a parameter to the function as we have variable AGE and object OBJ which is declared out side the function  the we have declared the function TEST(a,b) with parameter A and B. Through fuction we are trying to update the value of variable AGE and properties of object OBJ ,city. 
+/* 
 
-// As we know that the scope of variable is only inside the function hence if we print its value outside the function then it will only show the global variable value  i.e 30 and  not 10 
+In this code we are tring to pass the variable and object as a parameter to the function as we have variable AGE and object OBJ 
+which is declared out side the function  the we have declared the function TEST(a,b) with parameter A and B. Through fuction we 
+are trying to update the value of variable AGE and properties of object OBJ ,city. 
 
-// And its important to note that the updated value of object can also be accessed outside the function also hence city property of OBJ1 will be printed as ramgarh
+As we know that the scope of variable is only inside the function hence if we print its value outside the function then it will 
+only show the global variable value  i.e 30 and  not 10 
 
+And its important to note that the updated value of object can also be accessed outside the function also hence city property of 
+OBJ1 will be printed as ramgarh
+
+*/
 
 var age = 30;  // global variable
 
@@ -73,22 +80,3 @@ test(age,obj1);
 
 console.log(age);
 console.log(obj1.city);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
