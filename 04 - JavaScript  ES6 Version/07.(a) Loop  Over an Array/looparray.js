@@ -46,8 +46,7 @@
             
             if(convert5[i].className === "box blue")
             continue;
-            
-            
+         
             convert5[i].textContent = "text changed to blue";
             
         }
@@ -74,22 +73,16 @@
 
 
      let person = {
-         
          f_name : 'STEVE',
          l_name : 'JOBS',
          age:38
-         
-         
-         
      };
 
 
 
     for( let x in person )
         {
-            
             console.log(person[x]);
-            
         }
        
    
@@ -121,11 +114,7 @@
    
     for(let z of cars )
     {
-        
-        console.log(z);
-        
-        
-       
+        console.log(z);   
     }
 
 //----------------------1. Looping over an STRING -----------------------------
@@ -136,8 +125,7 @@
     
     for(let v of str )
         {
-            console.log(v);
-            
+            console.log(v);           
         }
 
 
@@ -168,10 +156,7 @@
             if(st.className==="ox blue") 
                 continue;
             st.textContent = "text changed to blue"
-            
-            
-            
-        }
+       }
 
 
 //---------------------------INCLUDES() METHOD IN ES6-------------------------
