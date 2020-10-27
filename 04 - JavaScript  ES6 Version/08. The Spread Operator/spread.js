@@ -5,9 +5,7 @@
     If we want to pass multiple arguments into the function defination in the form of 
     
     1. variables
-    
     or
-    
     2. ARRAY 
     
     as parameter then we can use SPREAD OPERATOR for making passing argument more eassy
@@ -67,13 +65,11 @@
 /*
     SPREAD OPERATOR is used in
     
-    1. Function call :- so that we can pass array in more eassy way to Function                           defination.
+    1. Function call :- so that we can pass array in more eassy way to Function defination.
     
-    2. Function defination :- we can recive multiple values comming to parameter of                             function defination
+    2. Function defination :- we can recive multiple values comming to parameter of function defination
     
     3. ARRAY
-    
-    
     
     4. OBJECTS
     
@@ -234,41 +230,3 @@
            el.style.backgroundColor = 'red';
             
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
