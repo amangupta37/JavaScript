@@ -61,8 +61,11 @@ console.log(a);
 
 
 
-// For VAR Keyword we use IIFE for achivoing data privacy but in    LET AND CONST keyword we use BLOCK SCOPING for achiving data    privacy.
-    
+/* 
+For VAR Keyword we use IIFE for achivoing data privacy but in 
+LET AND CONST keyword we use BLOCK SCOPING for achiving data privacy.
+  
+  */
 
     // data privacy through BLOCK SCOPING
 
@@ -77,26 +80,3 @@ console.log(a);
 
 
 // hence we achive data privacy through block scoping with LET      and CONST keyword
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
