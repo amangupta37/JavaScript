@@ -16,7 +16,9 @@
     3.SLICE() 
     etc.......
     
-    then we need to use ARRAY.PROTOTYPE.mthod_name() to access all the methods which we wants to use with array hence its important to use ARRAY.PROTOTYPE before any methods like push() , pop() , slice () etc............while doing DOM manipulation.
+    then we need to use ARRAY.PROTOTYPE.mthod_name() to access all the methods which we wants to use with 
+    array hence its important to use ARRAY.PROTOTYPE before any methods like push() , pop() , slice () etc
+    ............while doing DOM manipulation.
     
     
 */
@@ -124,7 +126,8 @@
         
       1. Array.prototype :- is use for accessing IN BUILT METHOD OF an ARRAY
    
-      2. SLICE() METHOD :- is an in built Method of an ARRAY which is used to extract all the elemnts of querySelectorAll() and store it into an ARRAY insted of NODE LIST.
+      2. SLICE() METHOD :- is an in built Method of an ARRAY which is used to extract all the elemnts of querySelectorAll() and store it into
+                           an ARRAY insted of NODE LIST.
       
       3. CALL()  METHOD :-  method is used for passing the selected elements form querySelectorAll() to slice() METHOD  of an ARRAY.
       
@@ -133,7 +136,8 @@
       
       Since all the elements are stored in ARRAY we can apply any In-bulit method of an array to the slected element
       
-      their are -------> total 3 elements which is in the form of buttons and now its is stored in ARRAY and if we want to change color of all the  button  into YELLOW then this could be done by
+      their are -------> total 3 elements which is in the form of buttons and now its is stored in ARRAY and if we want
+      to change color of all the  button  into YELLOW then this could be done by
       
       FOR EACH () Method
       
