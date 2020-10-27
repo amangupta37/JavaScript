@@ -10,7 +10,9 @@
 
 /*  
     
-    CONSTRUCTOR or FUNCTION CONSTRUCTOR  is nothing but a parent object which acts as a blue print and through this blue print we can create N numbers of new objects also known as INSTANCES and we can call all these new objcet as a child object....
+    CONSTRUCTOR or FUNCTION CONSTRUCTOR  is nothing but a parent object which acts as a blue print and through this
+    blue print we can create N numbers of new objects also known as INSTANCES and we can call all these new objcet 
+    as a child object....
     
     Here we can observe that how to create INSTANCES from CONSTRUCTOR 
     
@@ -99,35 +101,3 @@ james.calage();
 console.log(jhon.lastname);
 console.log(mark.lastname);
 console.log(james.lastname);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
