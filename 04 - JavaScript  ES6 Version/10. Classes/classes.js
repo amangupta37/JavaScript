@@ -27,7 +27,8 @@ console.log("-----------INHERITANCE IN ES5---------")
     
     2. Then we create a PROTOTYPE PROTOTYPE of FUNCTION CONSTRUCTOR.
     
-    3. After craeting PROTOTYPE PROTOTYPE of FUNCTION CONSTRUCTOR.Now we add all the METHODS and PROPERTIES which we want to inherit in newly created object inside the PROTOTYPE PROPERTY of FUNCTION CONSTRUCTOR (parent object).
+    3. After craeting PROTOTYPE PROTOTYPE of FUNCTION CONSTRUCTOR.Now we add all the METHODS and PROPERTIES which we want to inherit
+       in newly created object inside the PROTOTYPE PROPERTY of FUNCTION CONSTRUCTOR (parent object).
 
 */
 
@@ -48,7 +49,7 @@ var Person5 = function(name,dob,job)
 //2. Creating PROTOTYPE PROPERTY and adding method to FUNCTION CONSTRUCTR
 
 
-    Person5.prototype.calage = function() // ADDING METHOD CALAGE () to                                            FUNCTION CONSTRUCTR
+    Person5.prototype.calage = function() // ADDING METHOD CALAGE () to FUNCTION CONSTRUCTR
     {
     
     
@@ -87,7 +88,7 @@ console.log("---------INHERITANCE IN ES6-----------")
         }
         
         
-        calage ()  // ADDING METHOD CALAGE () to                                       FUNCTION CONSTRUCTR 
+        calage ()  // ADDING METHOD CALAGE () to FUNCTION CONSTRUCTR 
         {
             
              var age = 2020 - this.dob;
@@ -131,7 +132,8 @@ console.log("---------INHERITANCE IN ES6-----------")
 
 /*
 
-    If we use STATIC METHOD inside the class attached to a method then we can not access or use that method with new objects or INSTANCES which is inherited from BLUE PRINT.
+    If we use STATIC METHOD inside the class attached to a method then we can not access or use 
+    that method with new objects or INSTANCES which is inherited from BLUE PRINT.
     
     above is the example of STATIC METHOD 
     
