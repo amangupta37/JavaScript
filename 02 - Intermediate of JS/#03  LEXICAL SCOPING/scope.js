@@ -58,7 +58,11 @@ grandfather(); // function call
 //-------------------------CODE2--------------------------------
 
 
-//This code showws that the inner most function call also have access to Global variable it didn't even matter that variable is declared outside the parent function then also it can be accessable through inner function.
+/*
+This code showws that the inner most function call also have access to Global variable it didn't even 
+matter that variable is declared outside the parent function then also it can be accessable through 
+inner function.
+*/
 
 
 var a  = 'hello';  //global variable
@@ -106,9 +110,16 @@ a();  // function call
 //----------------------------CODE 4----------------------------
 
 
-// This code is very different from all other code as we can observe that ZOO which is decalerd twice a time in the code i.e in global scope as well as inside the function d() only its value is changed inside the function d(). Now when we access the value of ZOO from inner most function e() then it will not print the value of ZOO in global scope i.e 'Will it get printed????' because the value of ZOO is updated or we can say MUTATED as 'Miracle Happens!!'. hence it prints the updated value of variable ZOO......
+/*
 
+This code is very different from all other code as we can observe that ZOO which is
+decalerd twice a time in the code i.e in global scope as well as inside the function d()
+only its value is changed inside the function d(). Now when we access the value of ZOO 
+from inner most function e() then it will not print the value of ZOO in global scope i.e 
+'Will it get printed????' because the value of ZOO is updated or we can say MUTATED as 
+'Miracle Happens!!'. hence it prints the updated value of variable ZOO......
 
+*/
 
 var zoo = 'Will it get printed????'
 
@@ -124,22 +135,3 @@ var zoo = 'Will it get printed????'
     }
 
 d();
-
-
-
-
-            
-                            
-                                       
-
-
-
-
-
-
-
-
-
-
-
-
