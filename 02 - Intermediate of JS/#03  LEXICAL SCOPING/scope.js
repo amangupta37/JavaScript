@@ -5,13 +5,21 @@
 */
 
 
-//Lexical Scope means that in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope,But reverse is it is not possible.
-
+/*
+Lexical Scope means that in a nested group of functions, the inner functions have access to the 
+variables and other resources of their parent scope,But reverse is it is not possible.
+*/
 //----------------------------CODE 1----------------------------
 
-//Below code is an example of LEXICAL SCOPING as we can see that the inner most function i.e child() can access all the variables and resources of parent() and grandfather() function but if we want to access the variable and resources of CHILD() function from function grandfather() then it will show error because in lexical scoping only innner most function are allowed to access all resources of other functions but opposite of it is not possible.
+/*
 
+Below code is an example of LEXICAL SCOPING as we can see that the inner most function i.e child()
+can access all the variables and resources of parent() and grandfather() function but if we want 
+to access the variable and resources of CHILD() function from function grandfather() then it will 
+show error because in lexical scoping only innner most function are allowed to access all resources
+of other functions but opposite of it is not possible.
 
+*/
 
 
 
