@@ -19,4 +19,4 @@ In this aspect, JavaScript is very different from another language called Java.
 
 ECMAScript is the official name of the language.
 
-From 2015 ECMAScript is named by year (ECMAScript 2015).
+
